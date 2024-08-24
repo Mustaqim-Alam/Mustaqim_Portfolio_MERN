@@ -23,7 +23,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
-        <button />
+        <button>GitHub</button>
       </div>
     </nav>
   );
