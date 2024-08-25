@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { PiGithubLogoLight } from "react-icons/pi";
 const Header = () => {
   return (
     <nav className=" z-10">
@@ -23,6 +23,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
+      <PiGithubLogoLight/>
         <button>GitHub</button>
       </div>
     </nav>

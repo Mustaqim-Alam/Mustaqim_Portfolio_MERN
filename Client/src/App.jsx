@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import "./App.css";
 import Header from "./Components/Header";
 
@@ -6,7 +7,7 @@ function App() {
     <div>
       <Header />
       <main>
-        outlet
+        <Outlet />
       </main>
     </div>
   );
