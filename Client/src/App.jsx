@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import "./App.css";
-import Header from "./Components/Header";
+import { lazy } from "react";
+const Header = lazy(import("./Components/Header"));
 
 function App() {
   return (
