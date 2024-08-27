@@ -7,6 +7,9 @@ export default {
       fontf1: ["Rajdhani", "sans-serif"],
       fontf2: ["Exo 2", " sans-serif"],
     },
+    backgroundColor: {
+      bgColor1: "#212529"
+    }
   },
   plugins: [],
 };
