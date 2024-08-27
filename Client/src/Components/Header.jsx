@@ -4,31 +4,36 @@ const Header = () => {
   return (
     <header className=" bg-slate-400 py-3 w-screen ">
       <nav className="flex justify-around  ">
-        <div className=" bg-color gap-2">
-          <Link to="/">Mustaqim</Link>
+        <div className="">
+          <Link to="/" className=" font-bold text-2xl font-fontf1">
+            Mustaqim
+          </Link>
         </div>
         <div>
-          <ul className="flex">
+          <ul className="flex justify-around gap-4 font-medium font-fontf1 ">
             <li>
-              <Link
-                to="/project"
-                className="inline-bock px-6 py-2 duration-200 rounded-full"
-              >
+              <Link to="/project" className=" ">
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/experience"  className="inline-bock px-6 py-2 duration-200 rounded-full">Experience</Link>
+              <Link to="/experience" className="">
+                Experience
+              </Link>
             </li>
             <li>
-              <Link to="/article"  className="inline-bock px-6 py-2 duration-200 rounded-full">Article</Link>
+              <Link to="/article" className="">
+                Article
+              </Link>
             </li>
             <li>
-              <Link to="/contact"  className="inline-bock px-6 py-2 duration-200 rounded-full">Connect with me</Link>
+              <Link to="/contact" className="">
+                Connect with me
+              </Link>
             </li>
           </ul>
         </div>
-        <div className="flex">
+        <div className="flex items-center border-solid border-2 px-4 gap-1 rounded-lg border-black font-fontf1 ">
           <PiGithubLogoLight />
           <button>GitHub</button>
         </div>

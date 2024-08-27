@@ -5,7 +5,7 @@ const Header = lazy(() => import("./Components/Header"));
 
 function App() {
   return (
-    <div className=" min-h-screen w-full">
+    <div className=" min-h-screen w-screen">
       <Header />
       <main>
         <Outlet />
