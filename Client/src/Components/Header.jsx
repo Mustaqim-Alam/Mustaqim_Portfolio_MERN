@@ -3,7 +3,7 @@ import { PiGithubLogoLight } from "react-icons/pi";
 import { MdOutlineLightMode } from "react-icons/md";
 const Header = () => {
   return (
-    <header className=" bg-bgColor2 text-blackColor  py-3 w-screen   ">
+    <header className=" bg-bgColor2 text-blackColor  py-3 w-screen border-b  ">
       <nav className="flex justify-around  ">
         <div className="">
           <Link to="/" className=" font-bold text-3xl font-fontf1">
