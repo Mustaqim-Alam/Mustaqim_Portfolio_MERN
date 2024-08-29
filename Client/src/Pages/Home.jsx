@@ -5,16 +5,16 @@ import About from "../Components/About";
 
 const Home = () => {
   return (
-    <div>
-      <article className=" h-screen bg-bgColor2 w-screen flex flex-col items-center justify-center">
+    <div className=" w-full bg-red-300 flex flex-col justify-center items-center ">
+      <article className="bg-bgColor2 h-3/5 w-3/5  py-20  flex flex-col items-center justify-center">
         <div className=" w-2/3  flex flex-col items-center gap-3 justify-center">
           <div>
-            <h1 className=" text-3xl font-fontf3 font-bold">
+            <h1 className=" text-3xl font-fontf1 font-bold">
               Hey there, I'm Mustaqim{" "}
             </h1>
           </div>
           <div className=" flex justify-center">
-            <p className="font-fontf1 font-semibold w-2/3 opacity-75 text-xl">
+            <p className="font-fontf1  w-2/3 opacity-75 text-xl">
               <strong>MERN stack developer</strong> from India with a passion
               for building innovative web applications.{" "}
               <strong>constantly upskilling myself</strong> in the ever-evolving
@@ -40,7 +40,7 @@ const Home = () => {
           </div>{" "}
         </div>
       </article>
-      <About/>
+      <About />
     </div>
   );
 };
