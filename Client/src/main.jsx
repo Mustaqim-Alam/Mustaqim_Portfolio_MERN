@@ -1,6 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
@@ -9,7 +8,7 @@ import Articles from "./Pages/Articles";
 import Contact from "./Pages/Contact";
 import Experience from "./Pages/Experience";
 import Home from "./Pages/Home.jsx";
-import Projects from "./Pages/Projects";
+import Projects from "./Pages/Projects.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/projects",
+        path: "/project",
         element: <Projects />,
       },
       {

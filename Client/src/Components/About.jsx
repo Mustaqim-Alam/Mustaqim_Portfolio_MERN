@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className=" bg-green-400 w-1/3">
-      <div className=" py-1 bg-bgColor2 flex flex-col gap-4 items-center justify-center ">
+    <div className="  w-full flex justify-center">
+      <div className=" w-2/5  py-20 bg-bgColor2 flex flex-col gap-4 items-center justify-center ">
         <div className="flex flex-col items-start    ">
           <h1 className=" font-fontf2 font-bold text-xl  ">About</h1>
           <p className=" text-start font-fontf3">

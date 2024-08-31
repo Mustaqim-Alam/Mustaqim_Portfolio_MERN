@@ -3,7 +3,7 @@ import { SiLinkedin } from "react-icons/si";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className=" flex justify-between h-14 px-6 items-center w-full border-t-2 bg-bgColor2 text-blackColor">
+    <footer className=" flex justify-between h-14  items-center w-full border-t-2 bg-bgColor2 text-blackColor">
       <div className=" opacity-90 "> &copy; 2024 Md Mustaqim Alam</div>
       <div className=" flex gap-2 opacity-90">
         <Link

@@ -6,13 +6,13 @@ const Header = lazy(() => import("./Components/Header"));
 
 function App() {
   return (
-    <div className=" w-screen">
-      <Header />
+    < >
+      {/* <Header /> */}
       <main>
         <Outlet />
       </main>
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </>
   );
 }
 

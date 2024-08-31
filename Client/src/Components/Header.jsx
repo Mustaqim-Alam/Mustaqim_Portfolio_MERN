@@ -3,17 +3,17 @@ import { PiGithubLogoLight } from "react-icons/pi";
 import { MdOutlineLightMode } from "react-icons/md";
 const Header = () => {
   return (
-    <header className=" w-full shadow bg-red-500 text-blackColor  py-3  border-b sticky top-0 z-50 ">
-      <nav className="flex justify-around  ">
+    <header className=" w-screen  h-16 shadow bg-bgColor2 text-blackColor  py-3  border-b sticky top-0 z-50 ">
+      <nav className=" w-full flex justify-around items-center ">
         <div className="">
-          <Link to="/" className=" font-bold text-3xl font-fontf1">
+          <Link to="/" className=" font-bold text-2xl font-fontf1">
             @mustaqim
           </Link>
         </div>
         <div>
-          <ul className="flex justify-around gap-4 opacity-95 font-medium ">
+          <ul className="flex justify-around gap-6 opacity-75 font-small font-bold  ">
             <li>
-              <Link to="/project" className=" hover:bg-hoverColor ">
+              <Link to="/project" className="">
                 Projects
               </Link>
             </li>

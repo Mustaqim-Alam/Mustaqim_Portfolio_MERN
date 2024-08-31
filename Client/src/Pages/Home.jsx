@@ -5,9 +5,9 @@ import About from "../Components/About";
 
 const Home = () => {
   return (
-    <div className=" w-full bg-red-300 flex flex-col justify-center items-center ">
-      <article className="bg-bgColor2 h-3/5 w-3/5  py-20  flex flex-col items-center justify-center">
-        <div className=" w-2/3  flex flex-col items-center gap-3 justify-center">
+    <div className="bg-bgColor2  w-screen h-full  flex flex-col justify-center items-center ">
+      <article className=" h-[400px]  w-full  py-20  flex flex-col items-center justify-center">
+        <div className=" w-2/3   flex flex-col items-center gap-3 justify-center">
           <div>
             <h1 className=" text-3xl font-fontf1 font-bold">
               Hey there, I'm Mustaqim{" "}
