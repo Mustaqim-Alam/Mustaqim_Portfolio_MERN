@@ -87,7 +87,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className=" border-2 border-borderColor2 rounded-xl w-full bg-lime-300">
+          <div className=" border-2 mb-2 border-borderColor2 rounded-xl w-full bg-white">
             <img
               className=" w-full"
               src="https://www.singlegrain.com/wp-content/uploads/2019/03/SG-The-4-Fundamentals-of-E-commerce-Website-Design.jpg"
@@ -98,20 +98,20 @@ const Projects = () => {
               E-commerce admin dashboard with dynamic product management, secure
               APIs, and data visualization tools.
             </p>
-            <ul>
-              <li>ReactJS</li>
-              <li>NodeJS</li>
-              <li>MongoDB</li>
-              <li>ExpressJs</li>
-              <li>Sass</li>
-              <li>Redux</li>
+            <ul className=" flex justify-around px-2">
+              <li className=" bg-gray-200 text-blackColor rounded-md text-sm font-semibold flex items-center  border-2 border-black ">ReactJS</li>
+              <li className=" bg-gray-200 text-blackColor rounded-md py-1 px-2">NodeJS</li>
+              <li className=" bg-gray-200 text-blackColor rounded-md py-1 px-2">MongoDB</li>
+              <li className=" bg-gray-200 text-blackColor rounded-md py-1 px-2">ExpressJs</li>
+              <li className=" bg-gray-200 text-blackColor rounded-md py-1 px-2">Sass</li>
+              <li className=" bg-gray-200 text-blackColor rounded-md py-1 px-2">Redux</li>
             </ul>
-            <div>
-              <button>
+            <div className=" flex gap-2 m-4"  >
+              <button className=" flex py-2 px-4 bg-black text-white rounded-lg gap-2 items-center ">
                 <MdOutlineOpenInNew />
                 <span>Website</span>
               </button>
-              <button>
+              <button className=" flex py-2 px-4 bg-black text-white rounded-lg gap-2 items-center ">
                 <PiGithubLogoLight />
                 <span>Source</span>
               </button>

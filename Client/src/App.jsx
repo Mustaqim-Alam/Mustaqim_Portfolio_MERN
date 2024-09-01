@@ -7,7 +7,7 @@ const Header = lazy(() => import("./Components/Header"));
 function App() {
   return (
     < >
-      {/* <Header /> */}
+      <Header />
       <main>
         <Outlet />
       </main>
