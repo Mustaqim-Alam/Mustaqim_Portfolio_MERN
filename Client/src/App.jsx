@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import "./App.css";
 import { lazy } from "react";
-import Footer from "./Components/Footer";
+const Footer = lazy(() => import("./Components/Footer"));
 const Header = lazy(() => import("./Components/Header"));
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

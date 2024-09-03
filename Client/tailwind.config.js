@@ -9,8 +9,10 @@ export default {
         fontf3: ["Manrope", "sans-serif"],
       },
       backgroundColor: {
-        bgColor1: "#212529", // Custom background color
+        // bgColor1: "#212529", // Custom background color
+        bgColor1: "#1E2029", // Custom background color
         bgColor2: "#f2f4f3",
+        bgColor3:"#9a348e",
       },
       colors: {
         whiteColor: "#f7fff7",
@@ -20,6 +22,7 @@ export default {
       borderColor: {
         borderColor1: "#affc41",
         borderColor2: "#212529",
+        borderColor3:"#9a348e"
       },
     },
   },

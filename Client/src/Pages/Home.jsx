@@ -5,7 +5,7 @@ import About from "../Components/About";
 
 const Home = () => {
   return (
-    <div className="bg-bgColor2  w-screen h-full  flex flex-col justify-center items-center ">
+    <div className="bg-bgColor2  w-full h-full  flex flex-col justify-center items-center  ">
       <article className=" h-[400px]  w-full  py-20  flex flex-col items-center justify-center">
         <div className=" w-2/3   flex flex-col items-center gap-3 justify-center">
           <div>
@@ -26,14 +26,14 @@ const Home = () => {
             </p>
           </div>
           <div className=" flex gap-8">
-            <Link className=" bg-bgColor1 text-whiteColor text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5">
+            <Link className=" bg-bgColor3 text-whiteColor text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5">
               {" "}
               <PiHandshakeThin /> Get in touch
             </Link>
             <Link
               to="http://linkedin.com/in/md-mustaqim-alam"
               target="_blank"
-              className=" text-blackColor  text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5 border-solid border-2 border-borderColor2"
+              className=" text-blackColor  text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5 border-solid border-2 border-borderColor3"
             >
               <SiLinkedin /> Visit LinkedIn
             </Link>
