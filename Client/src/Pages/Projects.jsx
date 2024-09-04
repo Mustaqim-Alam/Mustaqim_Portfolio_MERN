@@ -22,11 +22,11 @@ const Projects = () => {
   ];
 
   return (
-    <div className=" bg-bgColor2 flex justify-center ">
-      <div className=" flex flex-col max-w-5xl px-4 gap-2  items-center ">
-        <div className=" h-52 w-full max-w-5xl flex justify-start items-start pt-10   gap-2 max ">
-          <div>
-            <button className=" py-1 px-4 bg-bgColor3 text-whiteColor font-fontf2 rounded-lg">
+    <div className=" w-full h-full flex flex-col justify-start gap-4 items-center">
+      <div className=" w-2/3  h-56 flex flex-col justify-center  ">
+        
+          <div className=" w-full h-2/4 flex flex-col justify-around   ">
+            <button className=" w-36 py-1 bg-bgColor3 text-whiteColor font-fontf2 rounded-lg">
               Showcase
             </button>
             <h1 className=" font-semibold text-3xl">Explore my projects</h1>
@@ -83,7 +83,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
   );
 };
 
