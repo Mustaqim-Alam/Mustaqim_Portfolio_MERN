@@ -55,7 +55,7 @@ const Experience = () => {
             </span>
             <div className=" pl-2 flex flex-col  justify-around ">
               <div>
-                <h1 className=" font-semibold text-lg">Frontend Developer</h1>
+                <h1 className=" font-semibold text-lg">Frontend Developer Intern</h1>
                 <p className=" text-sm font-semibold opacity-80">
                   April, 2024 - June, 2024{" "}
                   <span className=" opacity-70">(3 months)</span>
