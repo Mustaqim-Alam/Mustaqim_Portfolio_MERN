@@ -9,7 +9,7 @@ const Home = () => {
       <article className=" h-[400px]  w-full  py-20  flex flex-col items-center justify-center">
         <div className=" w-2/3   flex flex-col items-center gap-3 justify-center">
           <div>
-            <h1 className=" text-3xl font-fontf1 font-bold">
+            <h1 className=" text-3xl font-fontf1 font-extrabold">
               Hey there, I'm Mustaqim{" "}
             </h1>
           </div>
