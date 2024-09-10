@@ -10,7 +10,7 @@ const Home = () => {
         <div className=" w-2/3   flex flex-col items-center gap-3 justify-center">
           <div>
             <h1 className=" text-3xl font-fontf1 font-extrabold">
-              Hey there, I'm Mustaqim{" "}
+              Hey there, Im Mustaqim{" "}
             </h1>
           </div>
           <div className=" flex justify-center">
@@ -20,7 +20,7 @@ const Home = () => {
               <strong>constantly upskilling myself</strong> in the ever-evolving
               field of software development.{" "}
               <strong>
-                Currently, I'm actively seeking exciting opportunities
+                Currently, Im actively seeking exciting opportunities
               </strong>{" "}
               to contribute my expertise and collaborate with talented teams.
             </p>
