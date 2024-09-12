@@ -17,7 +17,7 @@ const Footer = () => {
         <Link
           to="http://linkedin.com/in/md-mustaqim-alam"
           target="_blank"
-          className="flex justify-around items-center rounded-md py-1 w-20"
+          className="flex justify-around items-center rounded-md py-1 w-20 "
         >
           <SiLinkedin /> LinkedIn
         </Link>
