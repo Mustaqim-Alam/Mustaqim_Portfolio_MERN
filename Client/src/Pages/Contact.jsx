@@ -25,7 +25,7 @@ const Contact = () => {
           />
           <h1>MERN Stack Developer</h1>
           <div>
-            <ul>
+            <ul className=" flex">
               <li>
                 {" "}
                 <div className="group relative flex justify-center items-center">
@@ -62,7 +62,7 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <div className=" bg-lime-200"></div>
+        <div className=" bg-lime-200 w-full "></div>
       </div>
     </div>
   );
