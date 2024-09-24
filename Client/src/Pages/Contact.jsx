@@ -1,7 +1,7 @@
-import { FiGithub, FiMessageSquare } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
+import { FiGithub, FiMessageSquare } from "react-icons/fi";
 import { RiTwitterXLine } from "react-icons/ri";
-import { SlSocialLinkedin } from "react-icons/sl";
 
 const Contact = () => {
   return (
@@ -112,7 +112,7 @@ const Contact = () => {
                 target="_blank"
                 className="bg-gray-700 w-full  text-white py-2 px-4 rounded-lg gap-2 flex items-center justify-center"
               >
-                <SlSocialLinkedin />
+                <FaLinkedin />
                 LinkedIn
               </a>
             </div>

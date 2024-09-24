@@ -34,7 +34,7 @@ const About = () => {
                 />
                 <div>
                   <h2 className=" font-semibold ">
-                    Maulana Mazharul Haque Arabic And Persian University, Patna
+                    Maulana Mazharul Haque Arabic And Persian University, Patna 
                   </h2>
                   <p className=" font-fontf3 text-start text-sm opacity-85">
                     Bachelor of Computer Applications (BCA)

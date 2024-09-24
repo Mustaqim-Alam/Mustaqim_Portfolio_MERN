@@ -13,6 +13,9 @@ const Header = () => {
         <div>
           <ul className="flex justify-around gap-6 opacity-75 font-small font-bold  ">
             <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
               <Link to="/project" className="">
                 Projects
               </Link>
@@ -22,11 +25,7 @@ const Header = () => {
                 Experience
               </Link>
             </li>
-            <li>
-              <Link to="/article" className="">
-                Article
-              </Link>
-            </li>
+           
             <li>
               <Link to="/contact" className="">
                 Connect with me
