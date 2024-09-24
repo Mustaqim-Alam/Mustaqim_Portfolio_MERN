@@ -2,8 +2,15 @@ import { BiCode } from "react-icons/bi";
 import { MdOutlineOpenInNew } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import blogpostImg from "../assets/Blog.png";
+import { useState } from "react";
 
 const Projects = () => {
+  const [categorietoggle, setCatetogerieToggle] = useState(false);
+
+  const toggleDown = () => {
+    setCatetogerieToggle((prev) => !prev);
+  };
+
   const productData = [
     {
       img: "https://www.singlegrain.com/wp-content/uploads/2019/03/SG-The-4-Fundamentals-of-E-commerce-Website-Design.jpg",
@@ -35,26 +42,31 @@ const Projects = () => {
         </div>
       </div>
       <div className=" flex w-full max-w-3xl justify-end">
-        <button className=" border-2 border-borderColor2 rounded-md bg-bgColor2 flex w-44 py-1 px-1 items-center justify-around">
+        <button
+          className=" border-2 border-borderColor2 rounded-md bg-bgColor2 flex w-44 py-1 px-1 items-center justify-around"
+          onClick={toggleDown}
+        >
           <span>All Projects</span>
           <BiCode />
         </button>
-        <div className=" border-2 border-gray-200 rounded-md h-full relative">
-          <ul className="absolute top-12 right-11 bg-white w-48">
-            <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
-              All Project
-            </li>
-            <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
-              Frontend Projects
-            </li>
-            <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
-              Backend Projects
-            </li>
-            <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
-              Fullstack Projects
-            </li>
-          </ul>
-        </div>
+        {categorietoggle ? (
+          <div className=" border-2 border-gray-200 rounded-md h-full relative">
+            <ul className="absolute top-12 right-11 bg-white w-48">
+              <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
+                All Project
+              </li>
+              <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
+                Frontend Projects
+              </li>
+              <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
+                Backend Projects
+              </li>
+              <li className=" border-b border-black p-2 hover:bg-gray-200 cursor-pointer ">
+                Fullstack Projects
+              </li>
+            </ul>
+          </div>
+        ) : null}
       </div>
       <div className=" w-full max-w-3xl  grid grid-cols-2 gap-4 mb-6">
         {productData.map((product, index) => (
