@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="  w-full flex justify-center">
-      <div className=" w-2/5  py-20 bg-bgColor2 flex flex-col gap-4 items-center justify-center ">
+      <div className=" w-2/5  py-20  flex flex-col gap-4 items-center justify-center ">
         <div className="flex flex-col items-start    ">
-          <h1 className=" font-fontf2 font-bold text-xl  ">About</h1>
-          <p className=" text-start font-fontf3">
+          <h1 className=" font-fontf2 font-bold text-xl text-headlineColor ">
+            About
+          </h1>
+          <p className=" text-start font-fontf3 text-paragraphColor">
             I graduated in 2023 with Bachelors of Computer Applications from{" "}
             <Link to="https://mmhapu.ac.in/" target="_blank">
               <u className=" text-blue-400">
@@ -23,7 +25,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col items-start   ">
-          <h1 className="font-fontf2 font-bold text-xl  ">Education</h1>
+          <h1 className=" font-bold text-xl text-paragraphColor ">Education</h1>
           <div className="flex flex-col gap-4 w-full mt-2">
             <div className=" flex justify-between w-full gap-6 ">
               <div className=" flex  items-center gap-2">
@@ -34,7 +36,7 @@ const About = () => {
                 />
                 <div>
                   <h2 className=" font-semibold ">
-                    Maulana Mazharul Haque Arabic And Persian University, Patna 
+                    Maulana Mazharul Haque Arabic And Persian University, Patna
                   </h2>
                   <p className=" font-fontf3 text-start text-sm opacity-85">
                     Bachelor of Computer Applications (BCA)
@@ -57,7 +59,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <p className=" self-start text-blue-500">2020 - 2023</p>
+              <p className=" self-start text-blue-500">2019 - 2020</p>
             </div>
           </div>
         </div>

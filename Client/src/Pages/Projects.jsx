@@ -29,7 +29,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className=" w-full h-full flex flex-col justify-start gap-4 items-center">
+    <div className="  w-full h-full flex flex-col justify-start gap-4 items-center">
       <div className=" w-2/3  h-56 flex flex-col justify-center  ">
         <div className=" w-full h-2/4 flex flex-col justify-around   ">
           <button className=" w-36 py-1 bg-bgColor3 text-whiteColor font-fontf2 rounded-lg">

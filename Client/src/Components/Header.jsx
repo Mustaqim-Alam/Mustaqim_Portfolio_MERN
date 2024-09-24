@@ -3,10 +3,10 @@ import { FaGithub } from "react-icons/fa";
 import { MdOutlineLightMode } from "react-icons/md";
 const Header = () => {
   return (
-    <header className="w-full h-16 shadow border-borderColor2 text-blackColor py-3 border-b sticky top-0 z-50 bg-bgColor2">
+    <header className="bg-bgSecondary w-full h-16 shadow  text-blackColor py-3 border-b sticky top-0 z-50 ">
       <nav className=" w-full flex justify-around items-center ">
         <div className="">
-          <Link to="/" className=" font-bold text-2xl font-fontf1">
+          <Link to="/" className=" font-bold text-2xl text-buttonText">
             @mustaqim
           </Link>
         </div>
@@ -25,7 +25,7 @@ const Header = () => {
                 Experience
               </Link>
             </li>
-           
+
             <li>
               <Link to="/contact" className="">
                 Connect with me
@@ -40,7 +40,7 @@ const Header = () => {
           <Link
             to="https://github.com/Mustaqim-Alam"
             target="_blank"
-            className="flex items-center  border-solid border-2 px-4 py-1 gap-1 rounded-lg  border-borderColor2  "
+            className="flex items-center  border-solid border-2 px-4 py-1 gap-1 rounded-lg  border-borderColor  "
           >
             <FaGithub />
             <button>GitHub</button>
