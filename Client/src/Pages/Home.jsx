@@ -1,3 +1,4 @@
+import { AiOutlineCloudDownload } from "react-icons/ai";
 import { PiHandshakeThin } from "react-icons/pi";
 import { SiLinkedin } from "react-icons/si";
 import { Link } from "react-router-dom";
@@ -15,17 +16,14 @@ const Home = () => {
           </div>
           <div className=" flex justify-center">
             <p className="font-fontf1  w-2/3 text-center text-xl text-paragraphColor">
-              <strong>MERN stack developer</strong> from India with a passion
-              for building innovative web applications.{" "}
-              <strong>constantly upskilling myself</strong> in the ever-evolving
-              field of software development.{" "}
-              <strong>
-                Currently, Im actively seeking exciting opportunities
-              </strong>{" "}
-              to contribute my expertise and collaborate with talented teams.
+              MERN stack developer from India with a passion for building
+              innovative web applications. constantly upskilling myself in the
+              ever-evolving field of software development. Currently, Im
+              actively seeking exciting opportunities to contribute my expertise
+              and collaborate with talented teams.
             </p>
           </div>
-          <div className=" flex gap-8">
+          <div className=" flex gap-8 mt-7">
             <Link className=" bg-buttonBg text-buttonText text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5">
               {" "}
               <PiHandshakeThin /> Get in touch
@@ -37,6 +35,9 @@ const Home = () => {
             >
               <SiLinkedin /> Visit LinkedIn
             </Link>
+            <button className=" bg-buttonBg text-buttonText text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5">
+              <AiOutlineCloudDownload /> Download CV
+            </button>
           </div>{" "}
         </div>
       </article>
