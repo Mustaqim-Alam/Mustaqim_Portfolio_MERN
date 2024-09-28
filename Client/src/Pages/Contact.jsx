@@ -111,7 +111,7 @@ const Contact = () => {
               {/* <!-- LinkedIn Button --> */}
 
               <a
-                href="https://www.linkedin.com/in/your-linkedin-profile"
+                href="http://linkedin.com/in/md-mustaqim-alam"
                 target="_blank"
                 className="bg-gray-700 w-full  text-white py-2 px-4 rounded-lg gap-2 flex items-center justify-center"
               >
