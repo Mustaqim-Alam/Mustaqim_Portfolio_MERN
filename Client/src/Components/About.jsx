@@ -10,7 +10,7 @@ const About = () => {
           </h1>
           <p className=" text-start font-fontf3 text-paragraphColor">
             I graduated in 2023 with Bachelors of Computer Applications from{" "}
-            <Link to="https://mmhapu.ac.in/" target="_blank">
+            <Link to="" target="_blank">
               <u className=" text-blue-400">
                 Maulana Mazharul Haque Arabic And Persian University
               </u>
