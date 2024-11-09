@@ -29,11 +29,11 @@ const About = () => {
           <div className="flex flex-col gap-4 w-full mt-2">
             <div className=" flex justify-between w-full gap-6 ">
               <div className=" flex  items-center gap-2">
-                <img
+                {/* <img
                   className="h-8 rounded-3xl "
                   src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Moulana_Mazharul_Haque_Arabic_and_Persian_University_logo.jpg/220px-Moulana_Mazharul_Haque_Arabic_and_Persian_University_logo.jpg"
                   alt="UniImg"
-                />
+                /> */}
                 <div>
                   <h2 className=" font-semibold ">
                     Maulana Mazharul Haque Arabic And Persian University, Patna
@@ -47,11 +47,11 @@ const About = () => {
             </div>
             <div className=" flex justify-between w-full ">
               <div className=" flex  items-center gap-2">
-                <img
+                {/* <img
                   className="h-8 rounded-3xl "
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahQLnOo_b6EH_OoBkvrwvRvuU9ow5_mtDew&s"
                   alt="UniImg"
-                />
+                /> */}
                 <div className=" flex flex-col">
                   <h2 className=" font-semibold self-start ">BSEB, Patna</h2>
                   <p className=" font-fontf3 text-start text-sm opacity-85">
