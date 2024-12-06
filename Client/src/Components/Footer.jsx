@@ -8,14 +8,14 @@ const Footer = () => {
       <div className=" flex gap-2 opacity-90">
         <Link
           target="_blank"
-          // to="https://github.com/Mustaqim-Alam"
+          to="https://github.com/Mustaqim-Alam"
           className="flex justify-around items-center rounded-md py-1 w-20 "
         >
           {" "}
           <GrGithub /> GitHub
         </Link>
         <Link
-          // to="http://linkedin.com/in/md-mustaqim-alam"
+          to="https://linkedin.com/in/md-mustaqim-alam"
           target="_blank"
           className="flex justify-around items-center rounded-md py-1 w-20 "
         >

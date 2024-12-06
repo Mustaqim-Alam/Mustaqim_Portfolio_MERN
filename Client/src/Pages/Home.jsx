@@ -29,7 +29,7 @@ const Home = () => {
               <PiHandshakeThin /> Get in touch
             </Link>
             <Link
-              to="http://linkedin.com/in/md-mustaqim-alam"
+              to="https://linkedin.com/in/md-mustaqim-alam"
               target="_blank"
               className=" text-buttonText  text-medium flex items-center w-36 justify-center gap-2 rounded-xl font-fontf1 py-1.5 border-solid border-2 border-borderColor"
             >
